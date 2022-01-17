@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/icons8-spotify-50.png" type = "image/x-icon">
+    <title>Listning is everything - Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="/spotify-logo-png-7057.png" alt="Spotify">Spotify</li>
+            
+            <div class="navLinks">
+                <li><a href="https://www.spotify.com/us/premium/"> Premium</a></li>
+                <li><a href="https://support.spotify.com/?_ga=2.45187428.1783384282.1638707913-1631582895.1638707912">Support</a></li>
+                <li><a href="https://www.spotify.com/us/download/">Download</a></li>
+                <li>|</li>
+                <li><a href="https://www.spotify.com/us/signup/">Sign up</a></li>
+                <li><a href="https://www.spotify.com/us/login/?continue=https%3A%2F%2Fopen.spotify.com%2F__noul__%3Fl2l%3D1%26nd%3D1">Log in</a></li>              
+            </div>    
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <div class="songList">
+            <h1 class="album">Midnight Memories (Deluxe)</h1>
+            <div>
+                <div class="songItems">
+                    <img src="/covers/5.jpg" alt="1">
+                    <span>Midnight Memories</span>
+                    <span class="songListPlay"> <span class="timeStamp">02:56 <i class="fas fa-play-circle"></i> </span> </span>
+                </div>
+                <div class="songItems">
+                    <img src="/covers/7.jpg" alt="2">
+                    <span>One Way or Another</span>
+                    <span class="songListPlay"> <span class="timeStamp">02:37 <i class="fas fa-play-circle"></i> </span> </span>
+                </div>
+                <div class="songItems">
+                    <img src="/covers/5.jpg" alt="3">
+                    <span>Happily</span>
+                    <span class="songListPlay"> <span class="timeStamp">02:55 <i class="fas fa-play-circle"></i> </span> </span>
+                </div>
+                <div class="songItems">
+                    <img src="/covers/7.jpg" alt="4">
+                    <span>Little White Lies</span>
+                    <span class="songListPlay"> <span class="timeStamp">03:17 <i class="fas fa-play-circle"></i> </span> </span>
+                </div>
+                <div class="songItems">
+                    <img src="/covers/5.jpg" alt="5">
+                    <span>Diana</span>
+                    <span class="songListPlay"> <span class="timeStamp">03:04 <i class="fas fa-play-circle"></i> </span> </span>
+                </div>
+                <div class="songItems">
+                    <img src="/covers/7.jpg" alt="6">
+                    <span>Best Song Ever</span>
+                    <span class="songListPlay"> <span class="timeStamp">03:22 <i class="fas fa-play-circle"></i> </span> </span>
+                </div>
+                <div class="songItems">
+                    <img src="/covers/5.jpg" alt="7">
+                    <span>Story of My Life</span>
+                    <span class="songListPlay"> <span class="timeStamp">04:05 <i class="fas fa-play-circle"></i> </span> </span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="progressBar" min="0" max="100"> 
+        <div class="icons">
+            <!-- font awesome -->
+            <i class="fas fa-2x fa-step-backward"></i>
+            <i class="fas fa-2x fa-play-circle"></i>
+            <i class="fas fa-2x fa-step-forward"></i>
+        </div>
+        <div class="songInfo">
+            <img src="/playing.gif" width="40px" alt=""> Midnight Memories - One Direction
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/1dcc7ed5ec.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
